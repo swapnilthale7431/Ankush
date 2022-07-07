@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="8" parallel="classes" name="Suite">
+  <test thread-count="8" parallel="classes" name="Test">
+    <classes>
+      <class name="a_Locators.d_tagname"/>
+      <class name="a_Locators.e_partiallinktext_Locator"/>
+      <class name="a_Locators.c_classname__Locator"/>
+      <class name="a_Locators.g_xpath_Locator"/>
+      <class name="a_Locators.a_id_Locator"/>
+      <class name="a_Locators.b_name_Locator"/>
+      <class name="a_Locators.h_css_slector"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
